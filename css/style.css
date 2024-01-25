@@ -21,6 +21,8 @@
   --color-orange: #fd6413;
 
   --color-gray: #1b1e26;
+
+  /* Size */
 }
 
 * {
@@ -73,6 +75,10 @@ button:focus {
   margin: 0.5rem 0;
 }
 
+.max-container {
+  max-width: 1200px;
+  margin: auto;
+}
 /* Header */
 .header {
   background-color: black;
@@ -156,4 +162,59 @@ button:focus {
   background-color: transparent;
   outline: 2px solid var(--color-accent);
   color: var(--color-text);
+}
+
+/* About */
+
+.majors {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+.major {
+  /* 임의로 준 크기 */
+  width: 150px;
+  /* 임의로 준 크기 */
+  background-color: var(--color-primary-variant);
+  padding: 2rem 1rem;
+  color: var(--color-text);
+  border-radius: 1rem;
+  cursor: default;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
+}
+.major:hover .major__icon {
+  transform: rotate(-15deg) scale(1.2);
+}
+.major__icon {
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: var(--color-accent);
+  transition: all 300ms ease;
+}
+.major__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.jobs {
+  text-align: start;
+  display: flex;
+  gap: 200px;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.job__name {
+  color: var(--color-primary);
+}
+
+.job__period {
+  color: var(--color-primary);
+  font-size: 0.8rem;
 }
