@@ -33,7 +33,7 @@
     <!-- Header -->
     <header class="header">
       <div class="header__logo">
-        <img class="header__logo__img" src="images/favicon.png" alt="logo" />
+        <!-- <img class="header__logo__img" src="images/favicon.png" alt="logo" /> -->
         <h1 class="header__logo__title"><a href="#">Daecheol</a></h1>
       </div>
       <nav class="header__nav">
@@ -42,9 +42,6 @@
           <li><a class="header__menu__item" href="#about">About</a></li>
           <li><a class="header__menu__item" href="#skills">Skills</a></li>
           <li><a class="header__menu__item" href="#work">My work</a></li>
-          <li>
-            <a class="header__menu__item" href="#testimonials">Testimonials</a>
-          </li>
           <li><a class="header__menu__item" href="#contect">Contect</a></li>
         </ul>
       </nav>
@@ -61,12 +58,16 @@
         <p class="home__description">
           안녕하세요 프론트엔드 개발자를 목표로 성장중인 고대철입니다.
         </p>
-        <a class="home__contact" href="#contact">Contact Me</a>
+        <a class="home__contact" href="#contect">Contact Me</a>
       </section>
       <!-- About -->
       <section id="about" class="section max-container">
         <h2 class="title">About me</h2>
-        <p class="description">나를 대표할 수 있는 문장</p>
+        <p class="description">
+          저는 목표를 가지고 목표에 다가가는 과정을 좋아합니다<br />
+          사용자에게 긍정적인 경험을 줄 수 있는 프론트엔드 개발자를 <br />목표로
+          꾸준히 노력하고 발전하고 있습니다.
+        </p>
         <ul class="majors">
           <li class="major">
             <i class="fa-brands fa-html5 major__icon"></i>
@@ -108,7 +109,7 @@
         <div class="max-container">
           <h2 class="title">My Skills</h2>
           <p class="description">Skills & Attributes</p>
-          <p>나의 프로그래밍 어필 나의 스킬을 어필 할 수 있는 추가 글</p>
+          <p>...</p>
           <div class="skills-container">
             <section class="skills__coding">
               <h3 class="skills__title">Coding Skills</h3>
@@ -160,9 +161,9 @@
             <section class="skills__etc">
               <h3 class="skills__title">Etc</h3>
               <ul>
-                <li>기타적</li>
-                <li>으로</li>
-                <li>잘하는것</li>
+                <li>...</li>
+                <li></li>
+                <li></li>
               </ul>
             </section>
           </div>
@@ -199,101 +200,92 @@
             <li class="project">
               <a href="#" target="_blank">
                 <img
-                  src="images/projects/project1.webp"
+                  src="images/projects/project1.jpg"
                   alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">Start</h3>
+                  <p>첫 웹사이트 제작</p>
                 </div>
               </a>
             </li>
             <li class="project">
               <a href="#" target="_blank"
                 ><img
-                  src="images/projects/project2.webp"
+                  src="images/projects/project2.jpg"
                   alt="project2"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">Naver Clone Coding</h3>
+                  <p>네이버 클론코딩</p>
                 </div></a
               >
             </li>
             <li class="project">
               <a href="#" target="_blank">
                 <img
-                  src="images/projects/project3.webp"
+                  src="images/projects/project3.jpg"
                   alt="project3"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">Puppy Community</h3>
+                  <p>강아지를 위한 <br />커뮤니티 제작</p>
                 </div>
               </a>
             </li>
             <li class="project">
               <a href="#" target="_blank"
                 ><img
-                  src="images/projects/project4.webp"
+                  src="images/projects/project4.jpg"
                   alt="project4"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">My PortFolio</h3>
+                  <p>포트폴리오 사이트</p>
                 </div></a
               >
             </li>
             <li class="project">
               <a href="#" target="_blank">
                 <img
-                  src="images/projects/project5.webp"
+                  src="images/projects/project5.JPG"
                   alt="project5"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">Simple Diary</h3>
+                  <p>
+                    React를 사용한 <br />
+                    Simple Diary
+                  </p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project project-updatebox">
               <a href="#" target="_blank">
-                <img
-                  src="images/projects/project6.webp"
-                  alt="project6"
-                  class="project__img"
-                />
+                <p class="project__updated">To be updated...</p>
                 <div class="project__metadata">
                   <h3 class="project__title">Project 이름</h3>
                   <p>프로젝트 설명</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project project-updatebox">
               <a href="#" target="_blank">
-                <img
-                  src="images/projects/project7.webp"
-                  alt="project7"
-                  class="project__img"
-                />
+                <p class="project__updated">To be updated...</p>
                 <div class="project__metadata">
                   <h3 class="project__title">Project 이름</h3>
                   <p>프로젝트 설명</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project project-updatebox">
               <a href="#" target="_blank">
-                <img
-                  src="images/projects/project8.webp"
-                  alt="project8"
-                  class="project__img"
-                />
+                <p class="project__updated">To be updated...</p>
                 <div class="project__metadata">
                   <h3 class="project__title">Project 이름</h3>
                   <p>프로젝트 설명</p>
@@ -302,61 +294,6 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Testimonials -->
-      <section id="testimonials" class="section max-container">
-        <h2 class="title">Testimonials</h2>
-        <p class="description">See what they say about me</p>
-        <ul class="testimonials">
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people1.webp"
-              alt=""
-              class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-                velit natus hic libero sed obcaecati id magnam, odio aliquam
-                architecto. Ratione nihil tenetur, impedit consequuntur aliquam
-                illo ullam rerum! Eum?
-              </p>
-              <p><a class="testimonial__bubble__name">james Kim</a></p>
-            </div>
-          </li>
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people2.webp"
-              alt=""
-              class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-                velit natus hic libero sed obcaecati id magnam, odio aliquam
-                architecto. Ratione nihil tenetur, impedit consequuntur aliquam
-                illo ullam rerum! Eum?
-              </p>
-              <p><a class="testimonial__bubble__name">Anna jin</a></p>
-            </div>
-          </li>
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people3.webp"
-              alt=""
-              class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-                velit natus hic libero sed obcaecati id magnam, odio aliquam
-                architecto. Ratione nihil tenetur, impedit consequuntur aliquam
-                illo ullam rerum! Eum?
-              </p>
-              <p><a class="testimonial__bubble__name">james Kim</a></p>
-            </div>
-          </li>
-        </ul>
       </section>
       <!-- Arrow up -->
       <aside>
