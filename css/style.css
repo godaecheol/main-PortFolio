@@ -450,3 +450,70 @@ button:focus {
 .content__link:hover {
   color: var(--color-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 3rem 2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+
+  #home {
+    padding-bottom: 3rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .header__menu {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 4rem;
+    gap: 1rem;
+  }
+
+  .header__nav {
+    width: 100%;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .majors {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .job {
+    justify-content: center;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .categories {
+    flex-direction: column;
+  }
+
+  .categorie {
+    width: 100%;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
