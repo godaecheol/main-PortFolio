@@ -15,3 +15,13 @@ const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
+
+// 스크롤시 Arrow 버튼을 나타내거나 숨김
+const Arrow = document.querySelector(".arrow-up");
+document.addEventListener("scroll", () => {
+  if (window.scrollY > homeHeight) {
+    Arrow.classList.add("arrow--opacity");
+  } else {
+    Arrow.classList.remove("arrow--opacity");
+  }
+});
