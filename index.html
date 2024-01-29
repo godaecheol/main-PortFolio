@@ -182,28 +182,28 @@
           <p class="description">Projects</p>
           <ul class="categories">
             <li>
-              <button class="categorie categorie--selected">
+              <button class="categorie category--selected" data-category="All">
                 All <span class="categorie__count">6</span>
               </button>
             </li>
             <li>
-              <button class="categorie">
+              <button class="categorie" data-category="HTML">
                 HTML/CSS<span class="categorie__count">3</span>
               </button>
             </li>
             <li>
-              <button class="categorie">
+              <button class="categorie" data-category="JavaScript">
                 JavaScript<span class="categorie__count">2</span>
               </button>
             </li>
             <li>
-              <button class="categorie">
+              <button class="categorie" data-category="React">
                 React<span class="categorie__count">1</span>
               </button>
             </li>
           </ul>
           <ul class="projects">
-            <li class="project">
+            <li class="project" data-type="HTML">
               <a href="#" target="_blank">
                 <img
                   src="images/projects/project1.jpg"
@@ -216,7 +216,7 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="HTML">
               <a href="#" target="_blank"
                 ><img
                   src="images/projects/project2.jpg"
@@ -229,7 +229,7 @@
                 </div></a
               >
             </li>
-            <li class="project">
+            <li class="project" data-type="HTML">
               <a href="#" target="_blank">
                 <img
                   src="images/projects/project3.jpg"
@@ -242,7 +242,7 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="JavaScript">
               <a href="#" target="_blank"
                 ><img
                   src="images/projects/project4.jpg"
@@ -255,7 +255,7 @@
                 </div></a
               >
             </li>
-            <li class="project project5">
+            <li class="project project5" data-type="React">
               <a href="#" target="_blank">
                 <img
                   src="images/projects/project5.JPG"
@@ -265,18 +265,22 @@
                 <div class="project__metadata">
                   <h3 class="project__title">Simple Diary</h3>
                   <p>
-                    React를 사용한 <br />
+                    React로 제작한 <br />
                     Simple Diary
                   </p>
                 </div>
               </a>
             </li>
-            <li class="project project-updatebox">
+            <li class="project" data-type="JavaScript">
               <a href="#" target="_blank">
-                <p class="project__updated">To be updated...</p>
+                <img
+                  src="images/projects/project6.JPG"
+                  alt="project5"
+                  class="project__img"
+                />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project 이름</h3>
-                  <p>프로젝트 설명</p>
+                  <h3 class="project__title">My PortFolio</h3>
+                  <p>반응형 포트폴리오 사이트</p>
                 </div>
               </a>
             </li>
